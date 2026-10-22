@@ -33,5 +33,13 @@
     "url": "https://github.com/inexorabletash/text-encoding/issues"
   },
   "homepage": "https://github.com/inexorabletash/text-encoding",
-  "license": "(Unlicense OR Apache-2.0)"
+  "license": "(Unlicense OR Apache-2.0)",
+  "scripts": {
+    "test": "node test/test-utf.js",
+    "build": "webpack --mode production --config webpack.config.cjs"
+  },
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
